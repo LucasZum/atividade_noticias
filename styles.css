@@ -3,6 +3,9 @@
     margin: 0;
     font-family: sans-serif;
 }
+h1{
+    font-size: 30px;
+}
 body{
     min-height: 100vh;
     overflow-x: hidden;
@@ -29,10 +32,12 @@ h2{
     padding-left: 40px;
     text-decoration: underline;
     font-style: italic;
+    font-size: 30px;
 }
 .container{
     padding: 20px;
     padding-top: 30px;
+    text-align: center;
     
 }
 .container div{
@@ -44,6 +49,7 @@ h2{
     border: 1px solid gray;
     text-align: center;
     margin-top: 20px !important;
+    border-radius: 3px;
 }
 .noticia h3, .noticia p, .noticia button{
     margin-top: 10px;
@@ -51,7 +57,7 @@ h2{
 .noticia button{
     width: 100%;
     padding: 15px;
-    border-radius: 0;
+    border-radius: 3px;
     border: 0;
 }
 .info{
@@ -129,4 +135,18 @@ table {
   tr td{
     font-weight: lighter !important;
   }
+
+iframe{
+    border-radius: 10px;
+    margin: 10px;
+}
+.container-videos{
+    text-align: center;
+}
+section h2{
+    text-align: center !important;
+}
+ol li{
+    font-size: 20px;
+}
   
