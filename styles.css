@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+header{
+    padding: 20px;
+    background-color: #eeeeee;
+    text-align: center;
+}
+header a{
+    padding: 0  20px;
+}
+section{
+    padding: 20px 0;
+}
+section:nth-child(even){
+    background-color: #f8f8f8;
+}
+.title{
+    text-align: center;
+    padding: 20px;
+}
+h2{
+    padding-left: 40px;
+    text-decoration: underline;
+    font-style: italic;
+}
+.container{
+    padding: 20px;
+    padding-top: 30px;
+    
+}
+.container div{
+    display: inline-block;
+    margin: 0 20px;
+}
+.noticia{
+    width: 300px;
+    border: 1px solid gray;
+    text-align: center;
+    margin-top: 20px !important;
+}
+.noticia h3, .noticia p, .noticia button{
+    margin-top: 10px;
+}
+.noticia button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 0;
+    border: 0;
+}
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3px !important;
+    background-color: #e5e5e5;
+    margin-top: 60px;
+}
+.info p{
+    display: inline-block;
+}
+.noticia-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.noticia-container p, .noticia-container img{
+    width: 600px;
+    padding: 10px 0;
+}
+footer{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f6f6f6;
+}
+footer a{
+    padding: 10px;
+}
+footer p{
+    padding-top: 10px;
+}
+table {
+    min-width: 60%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    margin: 30px auto;
+    
+  }
+  
+  thead th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left !important;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody td {
+    padding: 10px;
+  }
+  
+  tbody td:first-child {
+    font-weight: bold;
+  }
+  
+  tbody td:nth-child(2),
+  tbody td:nth-child(3) {
+    text-align: center;
+  }
+  
+  tbody td:last-child {
+    font-weight: bold;
+    color: #35dc42;
+  }
+  tr td{
+    font-weight: lighter !important;
+  }
+  
