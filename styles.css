@@ -57,8 +57,13 @@ h2{
 .noticia button{
     width: 100%;
     padding: 15px;
-    border-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
     border: 0;
+    font-size: 16px;
+    background-color: rgb(61, 123, 248);
+    color: white;
+    cursor: pointer;
 }
 .info{
     width: 100%;
@@ -130,7 +135,7 @@ table {
   
   tbody td:last-child {
     font-weight: bold;
-    color: #35dc42;
+    color: rgb(61, 123, 248);
   }
   tr td{
     font-weight: lighter !important;
