@@ -151,7 +151,13 @@ iframe{
 section h2{
     text-align: center !important;
 }
-ol li{
+ol{
     font-size: 20px;
+    text-align: left;
 }
-  
+#melhores-autores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
